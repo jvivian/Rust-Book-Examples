@@ -20,7 +20,7 @@ fn main() {
 
     println!("Input vector is {:?}", nums);
 
-    // Calculate mean of numbers
+    // Calculate mean
     let sum: i32 = nums.iter().sum();
     let mean = sum / nums.len() as i32;
 
